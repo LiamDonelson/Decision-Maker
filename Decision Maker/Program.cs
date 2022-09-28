@@ -17,7 +17,7 @@ while (pickingANumber)
 
 
     // addressing if thar variable is positive and if it is between 1-100
-    if (userInt < 0 && userInt <= 100)
+    if (userInt <= 0 || userInt >= 101)
     {
         Console.WriteLine(name + ", the integer you picked wasnt between 1 and 100. Please pick another number!");
         continue;
