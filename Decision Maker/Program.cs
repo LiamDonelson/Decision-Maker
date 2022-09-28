@@ -3,6 +3,8 @@
 bool pickingANumber = true;
 
 
+// THIS IS FOR JOSH AND DYLAN
+
 // asking name 
 Console.WriteLine(" Hello! What is your name?");
 string name = Console.ReadLine();
@@ -68,7 +70,7 @@ while (pickingANumber)
         {
             // loops the second while loop because they didnt input y or n 
             Console.WriteLine(" Im sorry, im not sure what that meant.");
-            continue; ;
+            continue;
         }
     }
     
